@@ -1,0 +1,23 @@
+{
+  "name": "monzo_assignment",
+  "version": "1.0.0",
+  "description": "A web crawler ",
+  "main": "dist/injex.js",
+  "scripts": {
+    "test": "jest",
+    "start": "npm run build && node ./dist/index.js",
+    "build": "node ./bin/build.js",
+    "ts-jest": "ts-jest config:init"
+  },
+  "author": "Olatomide Oluseesin",
+  "license": "ISC",
+  "dependencies": {
+    "htmlparser2": "^8.0.1",
+    "node-fetch": "^2.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.17",
+    "esbuild": "^0.16.9",
+    "ts-jest": "^29.0.3"
+  }
+}
